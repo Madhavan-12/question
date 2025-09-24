@@ -4,6 +4,7 @@
 //import Counter from "./component/Counter"
 //import TechList from "./component/TechList";
 //import Student from "./component/Student";
+import Arrayrendering from "./component/Arrayrendering";
 import WelcomeMessage,{Profile,TodoList} from "./component/WelcomeMessage";
 
 function App(){
@@ -12,7 +13,7 @@ function App(){
   const user = { name: "Azhagu" };
   return(
     <>
-      <div style={{ padding: "20px", fontFamily: "Arial" }}>
+      <div className="bg-amber-300">
       {/* WelcomeMessage with && rendering */}
       <WelcomeMessage isLoggedIn={isLoggedIn} />
 
@@ -25,6 +26,10 @@ function App(){
 
       {/* Profile with && rendering */}
       <Profile user={user} />
+
+      {/*Array rendering*/}
+      <Arrayrendering />
+
     </div>
 
     </>
