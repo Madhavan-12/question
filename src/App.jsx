@@ -6,6 +6,8 @@
 //import Student from "./component/Student";
 import Arrayrendering from "./component/Arrayrendering";
 import Banner from "./component/Task/Banner";
+import Count from "./component/Task/Count";
+import Fibonacci from "./component/Task/fibonacci";
 import Navbar from "./component/Task/Navbar";
 import WelcomeMessage,{Profile,TodoList} from "./component/WelcomeMessage";
 
@@ -39,6 +41,8 @@ function App(){
    
    <Navbar />
    <Banner />
+   <Count />
+   <Fibonacci />
     </>
   )
 }
