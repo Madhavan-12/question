@@ -9,6 +9,7 @@ import Banner from "./component/Task/Banner";
 import Count from "./component/Task/Count";
 import Fibonacci from "./component/Task/fibonacci";
 import Navbar from "./component/Task/Navbar";
+import Showoff from "./component/Task/showoff";
 import WelcomeMessage,{Profile,TodoList} from "./component/WelcomeMessage";
 
 function App(){
@@ -43,6 +44,7 @@ function App(){
    <Banner />
    <Count />
    <Fibonacci />
+   <Showoff />
     </>
   )
 }
