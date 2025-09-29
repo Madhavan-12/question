@@ -7,13 +7,15 @@
 import { Route, Routes } from "react-router-dom";
 import Arrayrendering from "./component/Arrayrendering";
 import Banner from "./component/Task/Banner";
-import Count from "./component/Task/Count";
+import Count from "./component/Task/useEffect/Count";
 
 import Footer from "./component/Task/Footer";
 import Navbar from "./component/Task/Navbar";
 import Showoff from "./component/Task/showoff";
 import WelcomeMessage,{Profile,TodoList} from "./component/WelcomeMessage";
 import Fibonacci from "./component/Task/fibonacci";
+import FocusInput from "./component/Task/useRef/Simpleinput";
+import SimpleInput from "./component/Task/useRef/Simpleinput";
 
 function App(){
     /*const isLoggedIn = true;
@@ -43,13 +45,16 @@ function App(){
     </div>
    */}
    
-   <Navbar />
+   {/* <Navbar />
    <Routes>
     <Route path="/" element={<Banner />}/>
     <Route path="/Fibonacci" element={<Fibonacci />} />
     <Route path="/Count" element={<Count />} />
    </Routes>
-    </>
+     */}
+
+     <Showoff />
+     </>
   )
 }
 export default App;
